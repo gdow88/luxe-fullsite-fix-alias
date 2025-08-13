@@ -9,9 +9,27 @@ const PHONE_DISPLAY = "978-380-2289";
 const PHONE_LINK = "9783802289";
 
 const listingsSeed = [
-  { id: "135-nashboro-greens", address: "135 Nashboro Greens, Nashville, TN", price: 449900, beds: 3, baths: 2.5, cars: 2, sqft: 1820, image: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=1600&auto=format&fit=crop", tags: ["Sample","Move-in Ready"] },
-  { id: "east-nashville-bungalow", address: "914 Shelby Ave, Nashville, TN", price: 589000, beds: 3, baths: 2, cars: 1, sqft: 1640, image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1600&auto=format&fit=crop", tags: ["Sample","Historic"] },
-  { id: "franklin-townhome", address: "207 Harpeth Way, Franklin, TN", price: 679000, beds: 4, baths: 3, cars: 2, sqft: 2205, image: "https://images.unsplash.com/photo-1600585154340-1e4b9f2c0b9b?q=80&w=1600&auto=format&fit=crop", tags: ["Sample","Great Schools"] },
+  {
+    id: "135-nashboro-greens",
+    address: "135 Nashboro Greens, Nashville, TN",
+    price: 449900, beds: 3, baths: 2.5, cars: 2, sqft: 1820,
+    image: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+    tags: ["Sample","Move-in Ready"]
+  },
+  {
+    id: "east-nashville-bungalow",
+    address: "914 Shelby Ave, Nashville, TN",
+    price: 589000, beds: 3, baths: 2, cars: 1, sqft: 1640,
+    image: "https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=crop&w=1600&q=80",
+    tags: ["Sample","Historic"]
+  },
+  {
+    id: "franklin-townhome",
+    address: "207 Harpeth Way, Franklin, TN",
+    price: 679000, beds: 4, baths: 3, cars: 2, sqft: 2205,
+    image: "https://images.unsplash.com/photo-1460472178825-e5240623afd5?auto=format&fit=crop&w=1600&q=80",
+    tags: ["Sample","Great Schools"]
+  },
 ];
 
 export default function HomePage(){
