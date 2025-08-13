@@ -13,22 +13,30 @@ const listingsSeed = [
     id: "135-nashboro-greens",
     address: "135 Nashboro Greens, Nashville, TN",
     price: 449900, beds: 3, baths: 2.5, cars: 2, sqft: 1820,
-    image: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",    tags: ["Sample","Move-in Ready"]
+    image: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+    tags: ["Sample","Move-in Ready"]
   },
   {
     id: "east-nashville-bungalow",
     address: "914 Shelby Ave, Nashville, TN",
     price: 589000, beds: 3, baths: 2, cars: 1, sqft: 1640,
-    image: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1600&q=80",
+    image: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1600&q=80", // Twilight exterior
     tags: ["Sample","Historic"]
   },
   {
     id: "franklin-townhome",
     address: "207 Harpeth Way, Franklin, TN",
     price: 679000, beds: 4, baths: 3, cars: 2, sqft: 2205,
-    image: "https://images.unsplash.com/photo-1493666438817-866a91353ca9?auto=format&fit=crop&w=1600&q=80",
+    image: "https://images.unsplash.com/photo-1493666438817-866a91353ca9?auto=format&fit=crop&w=1600&q=80", // Luxury interior
     tags: ["Sample","Great Schools"]
   },
+  {
+    id: "downtown-nashville-condo",
+    address: "500 Broadway Ave, Nashville, TN",
+    price: 799000, beds: 2, baths: 2, cars: 1, sqft: 1420,
+    image: "https://images.unsplash.com/photo-1502672023488-70e25813eb80?auto=format&fit=crop&w=1600&q=80", // High-rise city view
+    tags: ["Sample","City Views"]
+  }
 ];
 
 export default function HomePage(){
